@@ -8,12 +8,13 @@
 }
 
 body {
-  background: #000;
-  /* background: whitesmoke; */
+  /* background: #000; */
+  background: white;
 }
 
 h1, h4,h3, p, a{
-  color: #fff;
+  /* color: #fff; */
+  color: black;
   text-decoration: none;
 }
 
@@ -27,18 +28,18 @@ ul{
   text-transform: uppercase;
   background-color: rgb(248, 271, 15);
   color: #222;
-  border: 1px solid #fff;
+  border: 1px solid #222;
   font-weight: 600;
   cursor: pointer;
 }
 
 .btn-light{
+  color: #222;
   background: transparent;
-  color: #fff;
 }
 
 .btn:hover {
-  background: rgba(255, 255, 255,0.2);
-  color: #fff;
+  background: #222;
+  color: rgb(248, 271, 15);
   transition: 0.3s;
 }
