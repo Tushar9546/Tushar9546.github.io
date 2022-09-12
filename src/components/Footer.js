@@ -1,6 +1,7 @@
 import React from 'react';
 import "./FooterStyles.css";
 import {FaHome, FaPhone, FaMailBulk, FaLinkedin, FaGithub} from "react-icons/fa"
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -29,9 +30,11 @@ const Footer = () => {
                 </div>
             </div>
             <div className='right'>
+                <h4>Tushar's Portfolio</h4>
+                <p>Thank You for visiting my personal portfolio website. If you want to ask me any thing then please free to ask. Connect with me over any social handles</p>
                 <div className='social'>
-                   <FaLinkedin size={20} style={{color:"#000", marginRight: "1rem"}} />
-                   <FaGithub size={20} style={{color:"#000", marginRight: "1rem"}} />
+                   <a href='https://www.linkedin.com/in/tushar-tyagi-5ba071222z/'><FaLinkedin size={20} style={{color:"#000", marginRight: "1rem"}} /></a>
+                   <a href='https://github.com/Tushar9546'><FaGithub size={20} style={{color:"#000", marginRight: "1rem"}} /></a>
                 </div>
             </div>
         </div>
