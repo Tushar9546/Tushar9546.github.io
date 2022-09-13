@@ -1,54 +1,33 @@
 import pro1 from "../assets/pro1.png";
+import mamaearth from "../assets/mamaearth.png"
+import yoox from "../assets/yoox.png"
 
 const ProjectCardData = [
     {
         image: pro1,
         title: "Weather App",
-        text: "Users can either play in Multiplayer mode or withcomputer/AI.The users can also track their move All the edge cases of the game have been covered.Minimax Algorithm has been implemented while playing with AI to find the optimal move for a player.",
-        tools: "React | CSS | JavaScript | Styled",
-        view: "https://youtu.be/0h2b4ftbZcU?t=7456",
-        code:"https://youtu.be/0h2b4ftbZcU?t=7456"
+        text: "This is the Weather App where you can search for any city and it will show you that location on map and temprature cloudes, humidity or wind speed",
+        tools: "HTML | CSS | JavaScript ",
+        view: "https://mellifluous-semolina-41cafa.netlify.app/",
+        code:"https://github.com/masai-course/Tushar_fw18_0710/tree/master/unit-3/sprint-2/day-4/assignments/Weather%20app-1"
     },
     {
-        image: pro1,
-        title: "Weather App",
-        text: "Users can either play in Multiplayer mode or withcomputer/AI.The users can also track their move All the edge cases of the game have been covered.Minimax Algorithm has been implemented while playing with AI to find the optimal move for a player.",
-        tools: "React | CSS | JavaScript | Styled",
-        view: "https://youtu.be/0h2b4ftbZcU?t=7456",
-        code:"https://youtu.be/0h2b4ftbZcU?t=7456"
+        image: mamaearth,
+        title: "MaMaEarth Website Clone",
+        text: "This is the Clone of MamaEarth website. MamaEarth is an E-commercial website that sells skin care and other health care products",
+        tools: "HTML | CSS | JavaScript",
+        view: "https://tourmaline-boba-4e5158.netlify.app/",
+        code:"https://github.com/sauravbarnwal9/MamaEarth"
     },
     {
-        image: pro1,
-        title: "Weather App",
-        text: "Users can either play in Multiplayer mode or withcomputer/AI.The users can also track their move All the edge cases of the game have been covered.Minimax Algorithm has been implemented while playing with AI to find the optimal move for a player.",
-        tools: "React | CSS | JavaScript | Styled",
-        view: "https://youtu.be/0h2b4ftbZcU?t=7456",
-        code:"https://youtu.be/0h2b4ftbZcU?t=7456"
+        image: yoox,
+        title: "Yoox Website Clone",
+        text: "This is the Clone of Yoox website. Yoox is an E-commercial website that sells clothes and other fashion products",
+        tools: "HTML | CSS | JavaScript | React | Chakra-UI",
+        view: "https://github.com/Tushar9546/-youthful-glass-8497/tree/main/construct-week",
+        code:"https://github.com/Tushar9546/-youthful-glass-8497/tree/main/construct-week"
     },
-    {
-        image: pro1,
-        title: "Weather App",
-        text: "Users can either play in Multiplayer mode or withcomputer/AI.The users can also track their move All the edge cases of the game have been covered.Minimax Algorithm has been implemented while playing with AI to find the optimal move for a player.",
-        tools: "React | CSS | JavaScript | Styled",
-        view: "https://youtu.be/0h2b4ftbZcU?t=7456",
-        code:"https://youtu.be/0h2b4ftbZcU?t=7456"
-    },
-    {
-        image: pro1,
-        title: "Weather App",
-        text: "Users can either play in Multiplayer mode or withcomputer/AI.The users can also track their move All the edge cases of the game have been covered.Minimax Algorithm has been implemented while playing with AI to find the optimal move for a player.",
-        tools: "React | CSS | JavaScript | Styled",
-        view: "https://youtu.be/0h2b4ftbZcU?t=7456",
-        code:"https://youtu.be/0h2b4ftbZcU?t=7456"
-    },
-    {
-        image: pro1,
-        title: "Weather App",
-        text: "Users can either play in Multiplayer mode or withcomputer/AI.The users can also track their move All the edge cases of the game have been covered.Minimax Algorithm has been implemented while playing with AI to find the optimal move for a player.",
-        tools: "React | CSS | JavaScript | Styled",
-        view: "https://youtu.be/0h2b4ftbZcU?t=7456",
-        code:"https://youtu.be/0h2b4ftbZcU?t=7456"
-    },
+
 ];
 
 export default ProjectCardData;
