@@ -1,7 +1,6 @@
 import React from 'react';
 import "./FooterStyles.css";
-import {FaHome, FaPhone, FaMailBulk, FaLinkedin, FaGithub} from "react-icons/fa"
-import { Link } from 'react-router-dom';
+import {FaHome, FaPhone, FaMailBulk, FaLinkedin, FaGithub} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -39,7 +38,7 @@ const Footer = () => {
             </div>
         </div>
         <div className='creater'>
-            <h5>Created By Tushar Tyagi</h5>
+            <h5>© 2022 Designed and Built by Tushar.</h5>
         </div>
     </div>
     

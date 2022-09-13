@@ -1,7 +1,6 @@
 import React from 'react';
 import "./HeroImgStyles.css";
 import cover3 from "../assets/cover3.jpg";
-import intro from "../assets/intro.jpg"
 import { Link } from "react-router-dom";
 
 const HeroImg = () => {
@@ -11,8 +10,8 @@ const HeroImg = () => {
            <img className='intro-img' src={cover3} alt="cover" />
         </div>
         <div className='content'>
-              <h3>A Full stack developer.</h3>
               <h1>Hi, I am TUSHAR</h1>
+              <h3>An Aspiring Full stack Web developer.</h3>
               <div>
                   <Link to="/project" className="btn">Projects</Link>
                   <Link to="/contact" className="btn btn-light">Contact</Link>
