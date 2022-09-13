@@ -13,7 +13,7 @@ const AboutContent = () => {
         </div>
         <div className="right">
             <h1>About myself</h1>
-            <p>👋 I'm Tushar. Quick learner and an aspiring full-stack web developer with core knowledge of MERN stack technology. Looking forward to applying and enhancing my skills and knowledge as a developer.</p>
+            <p>👋 I'm Tushar. Quick learner and an aspiring full-stack web developer with core knowledge of MERN stack technology. Looking forward to apply and enhance my skills and knowledge as a developer.</p>
             <a href="./Tushar_Resume.pdf" download>
                   <button className="btn">Download CV</button>
             </a>         
