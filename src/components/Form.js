@@ -1,20 +1,35 @@
 import "./FormStyles.css";
-
-import React from 'react'
+import React from 'react';
+import { useForm, ValidationError } from '@formspree/react';
 
 export const Form = () => {
+  const [state, handleSubmit] = useForm("xjvzgnkl");
+  if (state.succeeded) {
+      alert("Thanks for connecting!")
+  }
+
   return (
     <div className="form">
-        <form>
+        <form onSubmit={handleSubmit}>
            <label>Your Name</label>
-           <input type="text"  />
+           <input name="name" type="text"  />
            <label>Email</label>
-           <input type="email"  />
+           <input name="email" type="email"  />
+           <ValidationError 
+              prefix="Email" 
+              field="email"
+              errors={state.errors}
+            />
            <label>Subject</label>
-           <input type="text"  />
+           <input name="subject" type="text"  />
            <label>Message</label>
-           <textarea rows="6" placeholder="Type your message here" />
-           <button className="btn">Submit</button>
+           <textarea name="message" rows="6" placeholder="Type your message here" />
+           <ValidationError 
+            prefix="Message" 
+            field="message"
+            errors={state.errors}
+            />
+           <button type="submit" className="btn">Submit</button>
         </form>
     </div>
   )

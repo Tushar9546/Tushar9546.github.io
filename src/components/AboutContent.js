@@ -1,7 +1,6 @@
 import "./AboutContentStyles.css";
 
 import React from 'react'
-import { Link } from "react-router-dom";
 import tushar from "../assets/tushar.JPG"
 
 const AboutContent = () => {
@@ -15,9 +14,9 @@ const AboutContent = () => {
         <div className="right">
             <h1>About myself</h1>
             <p>👋 I'm Tushar. Quick learner and an aspiring full-stack web developer with core knowledge of MERN stack technology. Looking forward to applying and enhancing my skills and knowledge as a developer.</p>
-            <Link to="/contact">
-                  <button className="btn">Contact</button>
-            </Link>         
+            <a href="./Tushar_Resume.pdf" download>
+                  <button className="btn">Download CV</button>
+            </a>         
         </div>
     </div>
   )
