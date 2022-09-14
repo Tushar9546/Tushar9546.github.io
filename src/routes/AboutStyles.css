@@ -1,17 +1,12 @@
 
 .timeLine__h1{
     margin: 0px auto;
-    /* color: pink; */
     width: fit-content;
   
 }
 
 .timeline{
-    /* background-color: #f8eaea; */
     background: #F7EDEA;
     padding-top:40px ;
     box-shadow: 0px 5px 20px 15px #faf7d1 inset;
-
-     /* background-color: #FFFFFF; */
-    /* height: 60vh; */
 }

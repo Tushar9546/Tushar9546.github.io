@@ -1,6 +1,6 @@
 .project-heading{
     text-align: center;
-    padding: 4rem 0 2rem 0;
+    padding: 2rem 0 2rem 0;
 }
 
 .project-container{
@@ -9,7 +9,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
 }
 
 .project-card {
