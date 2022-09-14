@@ -10,6 +10,7 @@ export const Form = () => {
 
   return (
     <div className="form">
+       <h1 className="form-heading">Contact Me</h1>
         <form onSubmit={handleSubmit}>
            <label>Your Name</label>
            <input name="name" type="text"  />
