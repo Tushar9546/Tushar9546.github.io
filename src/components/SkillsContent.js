@@ -10,6 +10,8 @@ import Redux from "../assets/Redux.png";
 import jz from "../assets/jz.svg";
 
 import React from 'react'
+import GitHubCalendar from 'react-github-calendar';
+
 
 const SkillsContent = () => {
   return (
@@ -94,6 +96,13 @@ const SkillsContent = () => {
             </div>
           </div>
         </div>
+
+
+        <div className="github-calendar">
+          <GitHubCalendar className="github-calendar-live" username="Tushar9546"  style={{color:"black",margin:"auto",marginTop:"30px"}} />
+        </div>
+        
+
          
     </div>
   )
