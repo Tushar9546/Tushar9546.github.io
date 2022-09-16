@@ -53,6 +53,48 @@ const SkillsContent = () => {
                 <h3>Redux</h3>
             </div>
         </div>
+
+        
+
+        <div id="statistics">
+          <div className="main-stat" > 
+            <div >
+              <h1 >STATISTICS</h1>
+            </div>
+  
+            <div className="stacistics-container">
+              <div className="stacistics-box" >
+                <div className="individualStat">
+                  <div>1200+</div>
+                  <div><h3>Hours</h3> of Full Stack Coding</div>
+                </div>
+    
+                <div className="individualStat">
+                  <div >240+</div>
+                  <div><h3>DSA</h3>Problems</div>
+                </div>
+    
+                <div className="individualStat">
+                  <div>210+</div>
+                  <div><h3>Git</h3>Commits</div>
+                </div>
+    
+                <div className="individualStat">
+                  <div >20+</div>
+                  <div><h3>Projects</h3>Done</div>
+                </div>
+    
+                
+                <div className="individualStat">
+                  <div>100+</div>
+                  <div><h3>Hours</h3> of Soft Skills Sessions</div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+         
     </div>
   )
 }
