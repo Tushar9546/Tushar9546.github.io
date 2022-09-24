@@ -24,6 +24,7 @@
 ## Learning
 - In this project I learnt how to connect form to Email
 - To attached github chart
+- how to give download funcanility
 
 
 Thanks for reading!
